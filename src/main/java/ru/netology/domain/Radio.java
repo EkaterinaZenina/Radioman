@@ -4,6 +4,10 @@ public class Radio {
     private int currentChannel;
     private int minChannel = 0;
     private int maxChannel = 9;
+    private int currentVolume;
+    private int minVolume = 0;
+    private int maxVolume = 10;
+
 
     public int getCurrentChannel() {
         return currentChannel;
@@ -46,9 +50,6 @@ public class Radio {
         }
     }
 
-    private int currentVolume;
-    private int minVolume = 0;
-    private int maxVolume = 10;
 
     public int getCurrentVolume() {
         return currentVolume;
